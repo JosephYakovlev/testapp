@@ -8,9 +8,6 @@ import rootSaga from "./driverSaga"
 
 const sagaMiddleware = createSagaMiddleware();
 
-sagaMiddleware.run
-
-
 export const store = configureStore({
     reducer, 
     middleware: [sagaMiddleware]
